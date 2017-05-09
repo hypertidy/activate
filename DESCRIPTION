@@ -1,0 +1,17 @@
+Package: activate
+Title: Activate to Determine the Context of Subsequent Manipulations
+Version: 0.0.0.9000
+Authors@R: c(person("Michael D.","Sumner", role = c("aut", "cre"), 
+             email ="mdsumner@gmail.com"), 
+             person("Thomas Lin", "Pedersen", role = c("aut"), 
+             comment = "Original author of activate, in tidygraph."))
+Description: A simple context-controlling mechanism to 'activate' a named 
+    sub-entity in an object. The generic functions are provided with bare
+    default methods. It is expected that other packages will import the
+    generic and specialize it. 
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat

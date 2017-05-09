@@ -11,6 +11,10 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
+[![Travis-CI Build Status](https://travis-ci.org/r-gris/activate.svg?branch=master)](https://travis-ci.org/r-gris/activate)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/r-gris/activate?branch=master&svg=true)](https://ci.appveyor.com/project/r-gris/activate)
+[![Coverage Status](https://img.shields.io/codecov/c/github/r-gris/activate/master.svg)](https://codecov.io/github/r-gris/activate?branch=master)
+
 
 ## Overview
 

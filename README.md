@@ -43,3 +43,9 @@ Use in other packages
 A simple context-controlling mechanism to 'activate' a named sub-entity in an object. The generic functions are provided with bare default methods and no checking. It is expected that other packages will import the generic and specialize it.
 
 See the vignettes. TBD
+
+Your package may need to
+
+-   define S3 methods for `activate`, `active` and `active<-`
+-   import the worker functions <'@importFrom> activate activate active active&lt;-'
+-   re-export the worker functions for users <'@export> activate active active&lt;-\`

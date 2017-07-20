@@ -9,7 +9,7 @@ Description: A simple context-controlling mechanism to 'activate' a named
     sub-entity in an object. The generic functions are provided with bare
     default methods. It is expected that other packages will import the
     generic and specialize it. 
-Depends: R (>= 3.4.0)
+Depends: R (>= 3.3.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
